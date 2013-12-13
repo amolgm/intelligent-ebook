@@ -1,0 +1,28 @@
+*** Creating Trace Output File 'featextrac_comb1.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"step1.o"'
+### List of Objects: adding '"step2.o"'
+### List of Objects: adding '"step3.o"'
+### List of Objects: adding '"graphic.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"ks0108.o"'
+### List of Objects: adding '"ks0108-lpc.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" "step1.o" "step2.o" "step3.o" "graphic.o" "lcd.o" "ks0108.o" "ks0108-lpc.o" --library_type=microlib --feedback "featextrac_comb1.fed" 
+--strict --scatter "featextrac_comb1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\featextrac_comb1.map" -o "featextrac_comb1.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'featextrac_comb1.axf'
+### ADS-LD Command File: 'featextrac_comb1.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'featextrac_comb1.lnp', Handle=0x000001D8
+### Writing '.lnp' file
+### ADS-LD Command file 'featextrac_comb1.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

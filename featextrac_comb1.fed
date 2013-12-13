@@ -1,0 +1,37 @@
+;#<FEEDBACK># ARM Linker, 4.1 [Build 713]: Last Updated: Thu Apr 19 00:03:05 2012
+;VERSION 0.2
+;FILE graphic.o
+GLCD_Circle <= USED 0
+GLCD_Line <= USED 0
+GLCD_Rectangle <= USED 0
+;FILE ks0108-lpc.o
+GLCD_Delay <= USED 0
+;FILE ks0108.o
+GLCD_Bitmap <= USED 0
+;FILE lcd.o
+LCDWriteInt <= USED 0
+init_lcd <= USED 0
+lcd_backlight_on <= USED 0
+lcd_clear <= USED 0
+lcd_command_write <= USED 0
+lcd_data_write <= USED 0
+lcd_gotoxy <= USED 0
+lcd_putchar <= USED 0
+lcd_putstring <= USED 0
+set_lcd_port_output <= USED 0
+test_cmd <= USED 0
+turn_off_lcd_back_light_cb <= USED 0
+wait_lcd <= USED 0
+;FILE main.o
+trans <= USED 0
+transmit <= USED 0
+transmit_char <= USED 0
+;FILE step1.o
+emxCreateND_uint8_T <= USED 0
+emxCreateWrapperND_uint8_T <= USED 0
+emxCreate_uint8_T <= USED 0
+step1_initialize <= USED 0
+;FILE step2.o
+step2_initialize <= USED 0
+;FILE step3.o
+step3_initialize <= USED 0

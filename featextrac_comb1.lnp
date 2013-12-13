@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "main.o" "step1.o" "step2.o" "step3.o" "graphic.o" "lcd.o" "ks0108.o" "ks0108-lpc.o" --library_type=microlib --feedback "featextrac_comb1.fed" 
+--strict --scatter "featextrac_comb1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\featextrac_comb1.map" -o "featextrac_comb1.axf"
